@@ -1,0 +1,43 @@
+/* Define o estilo da tela de apresentação */
+.tela-de-apresentacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./image/rio.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Define o estilo do texto */
+  h1 {
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+  button {
+	width: 50%;
+    justify-content: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 20px;
+	padding: 5px;
+	background-color: #1abc9c;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  footer {
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #080808;
+  }
+  
